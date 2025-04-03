@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
-  background-image: url(media/Fondo-forex.jpg);
+  background-image: url(media/fondo-verde.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Montserrat", sans-serif;
@@ -332,7 +332,7 @@ container {
 /* testimonios */
 
 .testimonials {
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .testimonials-item {
@@ -390,6 +390,33 @@ container {
   background-color: hsl(0, 0%, 100%);
 }
 
+@media (max-width: 767px) { 
+  .swiper-slide {
+    max-width: 85%; 
+    margin: 0 auto; 
+  }
+
+  #video {
+    width: 90%;
+  }
+
+  #sigueviendo {
+    width: 90%;
+  }
+
+  #textoPausa {
+    width: 90%;
+  }
+
+  #textoMuted{
+    width: 90%;
+  }
+
+  .progress-bar {
+    width: 90%;
+    left: 5%;
+  }
+}
 
 @media only screen and (max-width: 600px) {
 .P1{
