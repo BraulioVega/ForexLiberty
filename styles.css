@@ -88,6 +88,7 @@ p{
 	font-size: 50px;
 	text-align: center;
 	padding: 0% 9% 1% 9%;
+  font-weight: 600;
 }
 
 .P2{
@@ -138,6 +139,8 @@ h3{
   border-color: white;
   cursor: pointer;
   border-radius: 20px;
+  font-weight: 800;
+  font-style: italic;
 }
 
 #button-aparecer-2{
@@ -151,6 +154,8 @@ h3{
   border-color: white;
   cursor: pointer;
   border-radius: 20px;
+  font-weight: 800;
+  font-style: italic;
 }
 
 button {
